@@ -1,0 +1,75 @@
+body {
+    color: whitesmoke;
+    background-color: #2C2A38;
+    font-family: 'Playfair Display', serif;
+}
+
+.bg-image{
+    background-image: url(./images/cello-img.jpg);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.mynav{
+    background-color: #2C2A38;
+    padding: 10px 30px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    /*position: fixed;*/
+    width: 100%;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bold;
+    color: whitesmoke !important;
+
+    font-family: 'Playfair Display', serif;
+}
+
+.img-thumbnail {
+    width: 250px;
+    float: left;
+    margin-right: 15px;
+}
+
+
+div.transbox{
+    padding: 10px;
+    background: rgba(137, 62, 5, 0.5);
+}
+
+.row-content {
+    padding: 25px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+footer p{
+    text-align: center;
+    background-color: #2C2A38;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.accordion {
+    margin: 50px;
+}
+
+.accordion-body {
+    text-align: center;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+}
